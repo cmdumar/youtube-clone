@@ -9,15 +9,6 @@ Additional description about the project and its features.
 - HTML,
 - CSS
 
-## Live Demo
-
-[Live Demo Link](https://github.com/mohammadumar28/Youtube-Clone)
-
-
-## Getting Started
-
-
-
 ## Authors
 
 👤 **Author1**
@@ -27,7 +18,6 @@ Additional description about the project and its features.
 👤 **Author2**
 
 - Github: [@mohammadumar28](https://github.com/mohammadumar28)
-
 
 ## Show your support
 
