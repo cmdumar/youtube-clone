@@ -1,5 +1,8 @@
 # Youtube Video Player Page
 
+* Clone of the Youtube Video page. Made with HTML and CSS
+* Used flexbox for the layout
+
 > A Youtube clone.
 
 Additional description about the project and its features.
