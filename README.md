@@ -4,6 +4,8 @@
 
 >![screenshot of the app](screenshot.png)
 
+> Not an exact clone but close :smiley:
+
 ## Built With
 
 - HTML
