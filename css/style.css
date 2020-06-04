@@ -33,22 +33,22 @@
     display: inline-block;
   }
   
-  #logo img {
+  .logo img {
     height: 1.5rem;
   }
   
-  #search-form {
+  .search-form {
     flex: 1;
     flex-basis: 1e-9px;
     display: flex;
     flex-direction: row;
   }
   
-  #search-box {
+  .search-box {
     width: 550px;
   }
   
-  #search-input {
+  .search-input {
     position: relative;
     border: 1px solid #d3d3d3;
     display: flex;
@@ -56,7 +56,7 @@
     flex-direction: row;
   }
   
-  #search-input input {
+  .search-input input {
     padding: 2px 6px;
     border: none;
     border: 0;
@@ -64,14 +64,14 @@
     outline: 0;
   }
   
-  #search-btn {
+  .search-btn {
     margin: 0;
     border: 1px solid #d3d3d3;
     padding: 2px 6px;
     cursor: pointer;
   }
   
-  #avatars {
+  .avatars {
     display: flex;
     justify-content: center;
   }
@@ -89,7 +89,7 @@
     border-radius: 15px;
   }
   
-  #social-section {
+  .social-section {
       display: flex;
       justify-content: space-between;
   }
@@ -121,7 +121,7 @@
     height: 100%;
   }
   
-  #video-title {
+  .video-title {
       margin-block-start: 0;
       margin-block-end: 0;
       font-family: sans-serif;
@@ -131,7 +131,7 @@
       font-weight: normal;
   }
   
-  #channel-img {
+  .channel-img {
     border-radius: 25px;
     margin-right: 10px;
   }
@@ -152,13 +152,13 @@
     height: 20px;
   }
   
-  #views {
+  .views {
     color: gray;
     font-size: 1rem;
     font-family: sans-serif;
   }
   
-  #btn-div {
+  .btn-div {
      margin-top: 8px;
      margin-left: 20px;
   }
@@ -171,7 +171,7 @@
     padding-left: 5px;
   }
   
-  #share-btn {
+  .share-btn {
     padding: 6px 6px;
     font-size: 1rem;
     background-color: #ddd;
@@ -185,7 +185,7 @@
     justify-content: space-between;
   }
   
-  #subscribe-btn {
+  .subscribe-btn {
     padding: 8px 15px;
     background-color: red;
     color: white;
@@ -202,12 +202,12 @@
     color: #909090;
   }
   
-  #profile-image {
+  .profile-image {
     display: flex;
     align-items: center;
   }
   
-  #profile-image p {
+  .profile-image p {
     font-family: sans-serif;
     font-size: .80rem;
     padding-top: 3px;
@@ -215,11 +215,11 @@
     
   /* Thumbails/Recommendations section */
   
-  #thumbnails {
+  .thumbnails {
     padding-left: 25px;
   }
   
-  #thumbnails h2 {
+  .thumbnails h2 {
     font-family: sans-serif;
     padding-bottom: 20px;
     font-weight: bold;
