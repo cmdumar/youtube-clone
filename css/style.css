@@ -146,11 +146,10 @@
     padding: 15px;
     cursor: pointer;
   }
-  
-  .grey {
-    fill: #909090;
-    stroke: #909090;
-    display: inline-block;
+
+  .thumbs img {
+    width: 20px;
+    height: 20px;
   }
   
   #views {
@@ -169,6 +168,7 @@
     font-weight: bold;
     font-size: 13px;
     padding-top: 2px;
+    padding-left: 5px;
   }
   
   #share-btn {
