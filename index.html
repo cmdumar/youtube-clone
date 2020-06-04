@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube clone</title>
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navigation bar -->
     <nav>
-      <ul>
-        <li>
-          <div id="logo">
-            <img src="images/logo.png" alt="youtube logo"/>
-          </div>
-        </li>
-
-        <li>
-            <div id="search-box">
-              <form id="search-form">
-                <div id="search-input">
-                  <input type="text" name="search" />
+        <ul>
+            <li>
+                <div id="logo">
+                    <img src="images/logo.png" alt="youtube logo" />
                 </div>
-                <button id="search-btn">
-                  Search
-                </button>
-              </form>
-            </div>
-        </li>
+            </li>
 
-        <li>
-          <div id="avatars">
-            <!-- Bell icon -->
-            <div class="icons">
-              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
-                <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" class="style-scope yt-icon"></path></g>
-              </svg>
-            </div>
+            <li>
+                <div id="search-box">
+                    <form id="search-form">
+                        <div id="search-input">
+                            <input type="text" name="search" />
+                        </div>
+                        <button id="search-btn">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </li>
 
-            <!-- Record icon -->
-            <div class="icons">
-              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
-                <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" class="style-scope yt-icon"></path>
-              </g></svg>
-            </div>
+            <li>
+                <div id="avatars">
+                    <!-- Bell icon -->
+                    <div class="icons">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                            <g class="style-scope yt-icon">
+                                <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" class="style-scope yt-icon"></path>
+                            </g>
+                        </svg>
+                    </div>
 
-            <!-- Profile Pic -->
-            <div class="icons">
-              <img src="images/profile.jpg" alt="profile photo" />
-            </div>
-          </div>
-        </li>
-      </ul>
+                    <!-- Record icon -->
+                    <div class="icons">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                            <g class="style-scope yt-icon">
+                                <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" class="style-scope yt-icon"></path>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- Profile Pic -->
+                    <div class="icons">
+                        <img src="images/profile.jpg" alt="profile photo" />
+                    </div>
+                </div>
+            </li>
+        </ul>
     </nav>
     <!-- Main content -->
     <main>
@@ -63,161 +69,151 @@
                 <iframe src="https://www.youtube.com/embed/OI3fiNkgTOU" frameborder='1'></iframe>
               </div>
               <h1 id="video-title">SpaceX launch 🚀 @BBC News @NASA - BBC</h1>
-
-              <!-- Number of views and social buttons -->
-              <div id="social-section">
-                  <p id="views">130k views • 3 Jun 2020</p>
-                  
-                  <div class="flex">
+        
+                <!-- Number of views and social buttons -->
+                <div id="social-section">
+                    <p id="views">130k views • 3 Jun 2020</p>
                     <div class="flex">
-                      <div class="thumbs flex">
-                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="grey" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                          <g class="style-scope yt-icon">
-                              <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="grey"></path>
-                          </g>
-                        </svg>
-                        <span class="like-text">27k</span>
-                      </div>
-                      <div class="thumbs flex"> 
-                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="grey" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                          <g class="style-scope yt-icon">
-                              <path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="grey"></path>
-                          </g>
-                        </svg>
-                        <span class="like-text">2k</span>
-                      </div>
+                        <div class="flex">
+                            <div class="thumbs flex">
+                                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="grey" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                    <g class="style-scope yt-icon">
+                                        <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="grey"></path>
+                                    </g>
+                                </svg>
+                                <span class="like-text">27k</span>
+                            </div>
+                            <div class="thumbs flex">
+                                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="grey" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                    <g class="style-scope yt-icon">
+                                        <path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="grey"></path>
+                                    </g>
+                                </svg>
+                                <span class="like-text">2k</span>
+                            </div>
+                        </div>
+                        <div id="btn-div">
+                            <button id="share-btn">
+                                Share
+                            </button>
+                        </div>
                     </div>
-                    <div id="btn-div">
-                      <button id="share-btn">
-                          Share
-                      </button>
-                    </div>
-                  </div>
-              </div>
-              <hr />
-              <!-- Channel Details section -->
-              <div class="flex profile-row">
-                <div id="profile-image">
-                  <img id="channel-img" class="style-scope yt-img-shadow" alt="Channel photo" width="48" src="images/channel-logo.jpg">
-                  <p><b>BBC</b>
-                  <span class="block">8.3M subscribers</span></p>
                 </div>
+                <hr />
+                <!-- Channel Details section -->
+                <div class="flex profile-row">
+                    <div id="profile-image">
+                        <img id="channel-img" class="style-scope yt-img-shadow" alt="Channel photo" width="48" src="images/channel-logo.jpg">
+                        <p><b>BBC</b>
+                            <span class="block">8.3M subscribers</span></p>
+                    </div>
 
-                <div>
-                    <button id="subscribe-btn">
-                        SUBSCRIBE
-                    </button>
+                    <div>
+                        <button id="subscribe-btn">
+                            SUBSCRIBE
+                        </button>
+                    </div>
                 </div>
-              </div>
-          </section>
+            </section>
         </div>
         <!-- Sidebar/Recommendations section-->
-        <div id="thumbnails">
+
         <aside>
-          <h2 class="title">
-            Up next
-          </h2>
-          <!-- Thumnails section -->
-          <div class="thumb-container">
-            <div class="video-thumb">
-              <img 
-              src="https://i.ytimg.com/vi/JTBqYKvy0CU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBIyE22e9ARE0ahRgBXR4wssiMJ6g" 
-              alt="India and germany">
-              <div class="thumb-meta">
-                <div class="thumb-title">
-                  Indian Education v. German Education
+            <div id="thumbnails">
+                <h2 class="title">
+                    Up next
+                </h2>
+                <!-- Thumnails section -->
+                <div class="thumb-container">
+                    <div class="video-thumb">
+                        <img src="https://i.ytimg.com/vi/JTBqYKvy0CU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBIyE22e9ARE0ahRgBXR4wssiMJ6g" alt="India and germany">
+                        <div class="thumb-meta">
+                            <div class="thumb-title">
+                                Indian Education v. German Education
+                            </div>
+                            <div class="channel-name">
+                                Dhruv Rathee
+                            </div>
+                            <div class="thumb-views">
+                                1.8M views • 2 months ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="https://i.ytimg.com/vi/qHkQ7AbsnLo/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBr8LUm29Q9iRizyFt3L2IVMwFEcQ" alt="Stomach and gum">
+                        <div class="thumb-meta">
+                            <div class="thumb-title">
+                                Can I Swallow Gum?
+                            </div>
+                            <div class="channel-name">
+                                Doctor Mike
+                            </div>
+                            <div class="thumb-views">
+                                1M views • 1 month ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="https://i.ytimg.com/vi/xrZMYVDcjZI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBUvYPL3PPKEcKuci98e1oUcBUTag" alt="Fasting image">
+                        <div class="thumb-meta">
+                            <div class="thumb-title">
+                                Intermitent Fasting
+                            </div>
+                            <div class="channel-name">
+                                Doctor Mike
+                            </div>
+                            <div class="thumb-views">
+                                1.3M views • 3 months ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="https://i.ytimg.com/vi/9oFQzvPUzeU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBzAcALYjGUTsTNu9gGxkJ6Y3VBkg" alt="Doctor Jackie">
+                        <div class="thumb-meta">
+                            <div class="thumb-title">
+                                Doctor Jackie Tips
+                            </div>
+                            <div class="channel-name">
+                                Wired
+                            </div>
+                            <div class="thumb-views">
+                                500K views • 1 day ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="https://i.ytimg.com/vi/5UKRi9k1k7U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD8qYoW0a4Gwe1oy0O3Px1WaUmshg" alt="Doctor Mike laughfing">
+                        <div class="thumb-meta">
+                            <div class="thumb-title">
+                                Daily Health Routine
+                            </div>
+                            <div class="channel-name">
+                                Doctor Mike
+                            </div>
+                            <div class="thumb-views">
+                                2M views • 1 years ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="https://i.ytimg.com/vi/n6QwnzbRUyA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDicZHn5k2dvSd2cu2GV4Pnhd0rnw" alt="A man jogging">
+                        <div class="thumb-meta">
+                            <div class="thumb-title">
+                                How coronavirus spreads outdoors vs Indoors
+                            </div>
+                            <div class="channel-name">
+                                Vox
+                            </div>
+                            <div class="thumb-views">
+                                2.5M views • 5 days ago
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="channel-name">
-                  Dhruv Rathee
-                </div>
-                <div class="thumb-views">
-                  1.8M views • 2 months ago
-                </div>
-              </div>
             </div>
-            <div class="video-thumb">
-              <img 
-              src="https://i.ytimg.com/vi/qHkQ7AbsnLo/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBr8LUm29Q9iRizyFt3L2IVMwFEcQ" 
-              alt="Stomach and gum">
-              <div class="thumb-meta">
-                <div class="thumb-title">
-                  Can I Swallow Gum? 
-                </div>
-                <div class="channel-name">
-                  Doctor Mike
-                </div>
-                <div class="thumb-views">
-                  1M views • 1 month ago
-                </div>
-              </div>
-            </div>
-            <div class="video-thumb">
-              <img 
-              src="https://i.ytimg.com/vi/xrZMYVDcjZI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBUvYPL3PPKEcKuci98e1oUcBUTag" 
-              alt="Fasting image">
-              <div class="thumb-meta">
-                <div class="thumb-title">
-                  Intermitent Fasting
-                </div>
-                <div class="channel-name">
-                  Doctor Mike
-                </div>
-                <div class="thumb-views">
-                  1.3M views • 3 months ago
-                </div>
-              </div>
-            </div>
-            <div class="video-thumb">
-              <img 
-              src="https://i.ytimg.com/vi/9oFQzvPUzeU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBzAcALYjGUTsTNu9gGxkJ6Y3VBkg" 
-              alt="Doctor Jackie">
-              <div class="thumb-meta">
-                <div class="thumb-title">
-                  Doctor Jackie Tips
-                </div>
-                <div class="channel-name">
-                  Wired
-                </div>
-                <div class="thumb-views">
-                  500K views • 1 day ago
-                </div>
-              </div>
-            </div>
-            <div class="video-thumb">
-              <img 
-              src="https://i.ytimg.com/vi/5UKRi9k1k7U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD8qYoW0a4Gwe1oy0O3Px1WaUmshg" 
-              alt="Doctor Mike laughfing">
-              <div class="thumb-meta">
-                <div class="thumb-title">
-                  Daily Health Routine
-                </div>
-                <div class="channel-name">
-                  Doctor Mike
-                </div>
-                <div class="thumb-views">
-                  2M views • 1 years ago
-                </div>
-              </div>
-            </div>
-            <div class="video-thumb">
-              <img 
-              src="https://i.ytimg.com/vi/n6QwnzbRUyA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDicZHn5k2dvSd2cu2GV4Pnhd0rnw" 
-              alt="A man jogging">
-              <div class="thumb-meta">
-                <div class="thumb-title">
-                  How coronavirus spreads outdoors vs Indoors 
-                </div>
-                <div class="channel-name">
-                  Vox
-                </div>
-                <div class="thumb-views">
-                  2.5M views • 5 days ago
-                </div>
-              </div>
-            </div>
-          </div>
         </aside>
-      </div>
+
     </main>
-  </body>
+</body>
+
 </html>

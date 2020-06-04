@@ -1,5 +1,8 @@
 # Youtube Video Player Page
 
+* Clone of the Youtube Video page. Made with HTML and CSS
+* Used flexbox for the layout
+
 > A Youtube clone.
 
 Additional description about the project and its features.
@@ -8,15 +11,6 @@ Additional description about the project and its features.
 
 - HTML,
 - CSS
-
-## Live Demo
-
-[Live Demo Link](https://github.com/mohammadumar28/Youtube-Clone)
-
-
-## Getting Started
-
-
 
 ## Authors
 
@@ -27,7 +21,6 @@ Additional description about the project and its features.
 👤 **Author2**
 
 - Github: [@mohammadumar28](https://github.com/mohammadumar28)
-
 
 ## Show your support
 
