@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+nav {
+  overflow: hidden;
+  height: 56px;
+  background-color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 100%;
+  height: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.search-form {
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-box {
+  width: 550px;
+}
+
+.search-input {
+  position: relative;
+  border: 1px solid #d3d3d3;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.search-input input {
+  padding: 2px 6px;
+  border: none;
+  border: 0;
+  width: 100%;
+  outline: 0;
+}
+
+.search-btn {
+  margin: 0;
+  border: 1px solid #d3d3d3;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.avatars {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  width: 26px;
+  height: 26px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.social-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+.video-player {
+  width: 100%;
+}
+
+.embed-video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.embed-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #323232;
+    line-height: 2.4;
+    font-weight: normal;
+}
+
+.channel-img {
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.thumbs {
+  width: 45px;
+  height: 19px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.thumbs img {
+  width: 20px;
+  height: 20px;
+}
+
+.views {
+  color: gray;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.btn-div {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.like-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+
+.share-btn {
+  padding: 6px 6px;
+  font-size: 1rem;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.profile-row {
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+.subscribe-btn {
+  padding: 8px 15px;
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: 0;
+  border: 1px solid red;
+  margin-top: 5px;
+}
+
+.block {
+  display: block;
+  color: #909090;
+}
+
+.profile-image {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image p {
+  font-family: sans-serif;
+  font-size: .80rem;
+  padding-top: 3px;
+}
+
+.thumbnails {
+  padding-left: 25px;
+}
+
+.thumbnails h2 {
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.thumb-container {
+    flex-direction: column;
+    display: flex;
+}
+
+.video-thumb {
+    width: 100%;
+    padding-bottom: 25px;
+    display: flex;
+    cursor: pointer;
+}
+
+.thumb-meta {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.thumb-meta div {
+  padding: 3px;
+}
+
+.thumb-title {
+  font-size: 1rem;
+  display: inline-block;
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.channel-name {
+  font-size: 13px;
+  color: #aaa;
+  font-family: sans-serif;
+}
+
+.thumb-views {
+  font-size: 13px;
+  color: #aaa;
+  font-family: sans-serif;
+}

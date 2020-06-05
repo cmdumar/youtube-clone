@@ -1,74 +1,34 @@
-# Project Name
+# Youtube Video Player Page
 
-> One paragraph statement about the project.
+> Clone of video page in Youtube
 
-![screenshot](./app_screenshot.png)
+>![screenshot of the app](screenshot.png)
 
-Additional description about the project and its features.
+> Not an exact clone but close :smiley:
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Link](https://modest-almeida-90fa60.netlify.app/)
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rloterh](https://github.com/rloterh)
+- Twitter: [@rloterh](https://twitter.com/RLoterh)
+- Email: [rloterh@gmail.com](mailto:rloterh@gmail.com)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+- Github: [@mohammadumar28](https://github.com/mohammadumar28)
+- Twitter: [@Mohammadumar28](https://twitter.com/Mohammadumar28)
+- Email: [mohammadumar28@gmail.com](mailto:mohammadumar28@gmail.com)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
