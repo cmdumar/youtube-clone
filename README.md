@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Link](https://raw.githack.com/mohammadumar28/Youtube-Clone/homepage/index.html)
+[Live Link](https://modest-almeida-90fa60.netlify.app/)
 
 ## Authors
 
